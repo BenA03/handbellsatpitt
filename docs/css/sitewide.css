@@ -66,6 +66,11 @@ figure
     flex-direction: column;
 }
 
+figure div
+{
+    background-color: grey;
+}
+
 iframe
 {
     height: auto;
@@ -85,6 +90,11 @@ figcaption
 {
     margin-left: auto;
     text-align: right;
+}
+
+.hide
+{
+    display: none;
 }
 
 .jumbotron
@@ -274,9 +284,17 @@ button
 
 @media (max-width: 800px)
 {
+    .phone-visible-only
+    {
+        display: block;
+    }
     .responsive-wrap-800
     {
         flex-direction: column;
+    }
+    .responsive-reverse
+    {
+        flex-direction: column-reverse;
     }
     .responsive-wrap-800 .card
     {
