@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Upcoming Performances</title>
+    <link rel="icon" type="image/x-icon" href="icons/transparentlogo-white.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' href='css/sitewide.css' />
+    <link rel='stylesheet' href='css/performances.css' />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" id="main-nav">
+        <a href="index.html" class="invisLink">
+            <div class="navbar-brand">
+                <div class="reactiveCenter">
+                    <img src="img/transparentlogo-gold.png" alt="a gold logo with a handbell on it" id="navbarIcon">
+                </div>
+                <div class="reactiveCenter">
+                    <h1>The University Handbell Club</h1>
+                </div>
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="alignRight">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="performances.html">Upcoming Performances <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="music.html">Our music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- *************** Start of content *************** -->
+    <main>
+        <div class="textcontainter center">
+            <div class="flex wrap">
+                <div style="flex-grow: 1;">
+                    <h2>Upcoming performances</h2>
+                    <p>These are the shows we have coming up!</p>
+                    <div class="cal-entry margin-top">
+                        <div class="cal-icon">
+                            <div>16</div>
+                            <div>APR</div>
+                        </div>
+                        <ul class="cal-info">
+                            <li>Annual Spring Concert</li>
+                            <li><img src="icons/calendar-icon.svg" alt="icon of a calendar" /><span>Sunday, April 16,
+                                    2023</span></li>
+                            <li><img src="icons/clock-icon.svg" alt="icon of a clock" /><span>7:00pm - 9:00pm</span>
+                            </li>
+                            <li><img src="icons/location-icon.svg" alt="icon of a geomarker" /><span>William Pitt Union,
+                                    Lower Lounge</span></li>
+                            <li>Come join us for our annual spring concert!</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="image-col center">
+                    <img src="img/contact-square.jpg" alt="handbells being held in front of a building" />
+                </div>
+            </div>
+        </div>
+
+        <div class="center textcontainter">
+            <h3>Some of our recent performances</h3>
+            <p>Want to see more? Visit our <a href="music.html">music library</a>.</p>
+            <div class="flex add-gap center responsive-wrap-800" id="recent-performances">
+                <figure>
+                    <div class="youtube" id="4LY7LjYyOkQ" style="width:100%; height: 150px;"></div>
+                    <figcaption>Hedwig's Theme</figcaption>
+                </figure>
+                <figure>
+                    <div class="youtube" id="fi60Kw5RI2c" style="width:100%; height: 150px;"></div>
+                    <figcaption>Otherworld</figcaption>
+                </figure>
+                <figure>
+                    <div class="youtube" id="ixWzQdacHBA" style="width:100%; height: 150px;"></div>
+                    <figcaption>The Phantom of the Opera</figcaption>
+                </figure>
+                <figure>
+                    <div class="youtube" id="iMLaemwbbb0" style="width:100%; height: 150px;"></div>
+                    <figcaption>The First Noel</figcaption>
+                </figure>
+            </div>
+        </div>
+        <!-- *************** End of content *************** -->
+    </main>
+
+    <footer>
+        <div>
+            <a href="https://www.instagram.com/handbellupgh/" target="_blank"><img src="img/icons8-instagram.svg"
+                    alt="an instagram logo"></a>
+            <a href="https://www.youtube.com/channel/UC2mVok28CAsEKCDsRc-pWzQ" target="_blank"><img src="img/icons8-youtube-logo.svg"
+                    alt="an youtube logo"></a>
+            <a href="https://www.facebook.com/handbellupgh" target="_blank"><img src="img/icons8-facebook.svg"
+                    alt="a facebook logo"></a>
+        </div>
+        <p>©The University Handbell Club</p>
+    </footer>
+
+    <!-- Bootstrap plugins -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- iFrame loader thing -->
+    <script type="text/javascript" src="https://codegena.com/assets/js/youtube-embed.js"></script>
+</body>
+
+</html>

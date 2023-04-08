@@ -1,0 +1,85 @@
+.cal-entry
+{
+    display: flex;
+}
+
+.cal-entry:not(last-child)
+{
+    margin-bottom: 10px;
+}
+
+.margin-top
+{
+    margin-top: 30px;
+}
+
+.cal-icon
+{
+    border: black;
+    background-color: #C0C0C0; /* light grey */
+    height: fit-content;
+    width: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.cal-icon div
+{
+    text-align: center;
+}
+
+.cal-icon div:first-child
+{
+    font-size: x-large;
+}
+
+.cal-info
+{
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.cal-info li:first-child
+{
+    font-size: large;
+    font-weight: bold;
+}
+
+.cal-info li
+{
+    display: flex;
+    align-items: center;
+}
+
+.cal-info li img
+{
+    height: 20px;
+    margin-right: 3px;
+}
+
+.image-col
+{
+    display: flex;
+    align-items: center;
+}
+
+.image-col img
+{
+    max-width: 100%;
+    max-height: 400px;
+    width: auto;
+
+}
+
+#recent-performances > figure
+{
+    width: 24%;
+}
+
+iframe{
+    width: 100%;
+    height: auto;
+}

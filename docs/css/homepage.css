@@ -1,0 +1,37 @@
+#homepage-image 
+{
+    max-width: 500px;
+}
+
+.music-divider
+{
+    width: 100%; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.music-divider img
+{
+    width: 150%;
+}
+
+h3
+{
+    /* TODO */
+}
+
+.third
+{
+    width: 33%;
+}
+
+.jumbotron
+{
+    padding: 0;
+}
+
+.jumbotron p:not(:last-child)
+{
+    margin-bottom: 50px;
+}

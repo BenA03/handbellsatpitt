@@ -1,0 +1,51 @@
+.year-selected a
+{
+    background-color: goldenrod;
+}
+
+.page-item a:hover
+{
+    background-color: #F2DDA6;
+    cursor: pointer;
+}
+
+.year-selected a:hover
+{
+    background-color: goldenrod;
+}
+
+.song-grid
+{
+    display: flex;
+    gap: 10px;
+}
+
+.four > figure
+{
+  width: 25%;
+}
+
+.three > figure
+{
+  width: 33.333%;
+}
+
+.two > figure
+{
+  width: 50%;
+}
+
+#staging-area
+{
+    margin-bottom: 40px;
+}
+
+.bottom-padding
+{
+    margin-bottom: 20px;
+}
+
+.collapse-1
+{
+    display: none;
+}
